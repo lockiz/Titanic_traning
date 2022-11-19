@@ -3,6 +3,14 @@ from datetime import date
 
 
 def get_free_museum_dates(year):
+    '''
+
+    Вычисляет даты бесплатного посещения музея по заданному году
+
+    Аргументы:
+        year - год (int)
+
+    '''
     for month in range(1, 13):
         cal = calendar.monthcalendar(year, month)
         if cal[0].index(1) <= 3:

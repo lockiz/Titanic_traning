@@ -24,6 +24,9 @@ def get_free_museum_dates(year):
 get_free_museum_dates(int(input()))
 
 
+#  Хотел оставить тут комментарий
+
+
 def get_my_input(inp):
     ''' Возаращаем новое * 2 значение из ввода '''
     return inp * 2
